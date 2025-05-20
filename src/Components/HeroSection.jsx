@@ -1,5 +1,6 @@
 import { ArrowDown } from 'lucide-react'
 import React from 'react'
+import { Link } from 'react-scroll'
 
 export default function HeroSection() {
     return (
@@ -17,9 +18,14 @@ export default function HeroSection() {
                         both beautiful and functional.
                     </p>
                     <div className='pt-4 opacity-0 animate-fade-in-delay-3'>
-                        <a href="#projects" className='cosmic-button'>
+                        <Link
+                            to="projects"
+                            smooth={true}
+                            duration={500}
+                            className='cosmic-button cursor-pointer inline-block'
+                        >
                             View My Work
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

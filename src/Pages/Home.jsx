@@ -6,6 +6,8 @@ import HeroSection from '../Components/HeroSection'
 import AboutMe from '../Components/AboutMe'
 import SkillsSec from '../Components/SkillsSec'
 import ProjectsSection from '../Components/ProjectsSection'
+import { Footer } from '../Components/Footer'
+import { ContactSection } from '../Components/Contact'
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
         <AboutMe/>
         <SkillsSec/>
         <ProjectsSection/>
+        <ContactSection/>
+        <Footer/>
       </main>
       {/* footer */}
     </div>
