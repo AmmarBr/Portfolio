@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ammarbr.github.io/Portfolio/",
+  "homepage": "https://ammarbr.github.io/portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
