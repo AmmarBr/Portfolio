@@ -53,7 +53,7 @@ export default function SkillsSec() {
                                 />
                             </div>
                             <div className='text-right mt-1'>
-                                <span className='text-sm text-primary-foreground'>{e.level}%</span>
+                                <span className='text-sm '>{e.level}%</span>
 
                             </div>
                         </div>

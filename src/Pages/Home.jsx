@@ -13,21 +13,22 @@ export default function Home() {
   return (
     <div className='min-h-screen bg-background text-foreground overflow-x-hidden'>
       {/* theme toggle */}
-      <ThemTaggle/>
+      <ThemTaggle />
       {/* Background Effect */}
-      <StarBackground/>
+      <StarBackground />
       {/* NavBar */}
-      <Navbar/>
+      <Navbar />
       {/* main contact */}
       <main>
-        <HeroSection/>
-        <AboutMe/>
-        <SkillsSec/>
-        <ProjectsSection/>
-        <ContactSection/>
-        <Footer/>
+        <HeroSection />
+        <AboutMe />
+        <SkillsSec />
+        <ProjectsSection />
+        <ContactSection />
+
       </main>
       {/* footer */}
+      <Footer />
     </div>
   )
 }

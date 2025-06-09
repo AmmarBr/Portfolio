@@ -9,13 +9,13 @@ const projects = [
         description:
             "Full-featured e-commerce platform with user authentication and payment processing.",
         image: p1,
-        tags: ["React", "Node.js", "Stripe"],
+        tags: ["React", "TailwindCSS", "Stripe", "Axios"], // Axios اسم مكتبة تبدأ بحرف كبير عادة
         demoUrl: "#",
         githubUrl: "#",
     },
     {
         id: 2,
-        title: "SaaS Landing Page",
+        title: "E-commerce Landing Page",
         description: "A beautiful landing page app using React and Tailwind.",
         image: p2,
         tags: ["React", "TailwindCSS", "Supabase"],
@@ -24,15 +24,16 @@ const projects = [
     },
     {
         id: 3,
-        title: "Real Estate Website ",
+        title: "Real Estate Website",
         description:
             "Interactive analytics dashboard with data visualization and filtering capabilities.",
         image: p3,
-        tags: ["rect", "TailwindCSS", "rect-icon"],
-        demoUrl: "#",
+        tags: ["React", "TailwindCSS", "React Icons"],  // تصحيح كتابة React + إضافة React Icons بالشكل الصحيح
+        demoUrl: "https://real-estate-website-sandy-eight.vercel.app/",
         githubUrl: "#",
     },
 ];
+
 export default function ProjectsSection() {
     return (
         <section id="projects" className="py-24 px-4 relative">
@@ -101,7 +102,7 @@ export default function ProjectsSection() {
                     <a
                         className="cosmic-button w-fit flex items-center mx-auto gap-2"
                         target="_blank"
-                        href="#"
+                        href="https://github.com/AmmarBr"
                     >
                         Check My Github <ArrowRight size={16} />
                     </a>

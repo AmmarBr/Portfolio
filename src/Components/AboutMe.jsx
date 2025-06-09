@@ -1,6 +1,6 @@
 import { Briefcase, Code, User } from 'lucide-react'
 import React from 'react'
-
+import cv from "../assets/Ammar_Barakat_CV.pdf"
 export default function AboutMe() {
   return (
     <section id='about' className='py-24 px-4 relative'>
@@ -29,7 +29,7 @@ export default function AboutMe() {
               <a href="#contact" className='cosmic-button '>
                 Get In Touch
               </a>
-              <a href="" className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 '>
+              <a target='_blank' href={cv} className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 '>
                 Download CV
               </a>
             </div>
